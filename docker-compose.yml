@@ -13,7 +13,7 @@ services:
     volumes:
       - "./qna:/qna"
     environment:
-      TELEGRAM_KEY: "${TELEGRAM_KEY}"
+      TELEGRAM_KEY: "${AAGeVNHlaxdcJC4iDhSblerL7R64a13QOQo}"
       QUESTION_DB_PATH: "qna/questions.txt"
       REDIS_ADDR: "redis:6379"
 
